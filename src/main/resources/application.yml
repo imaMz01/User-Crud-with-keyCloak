@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: application
+keycloak:
+  server-url: http://localhost:8081
+  realm: FirstRealm
+  client-id: FirstAppWithKeyCloak
+  adminClientId: admin-cli
+  #username: admin
+  #password: admin
+  client-secret: UlCQlDCa5sj4XIABaKt43vHYEMrrurmP
+server:
+  port: 8082
